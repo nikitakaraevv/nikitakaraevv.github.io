@@ -1,6 +1,7 @@
-# keunhong.github.io
+# nikitakaraevv.github.io
 
-- Feel free to borrow this template.
+- This template is borrowed from keunhong.github.io
+- Feel free to use it.
 - Make sure to update all relevant fields in `_config.yml` and `_data`.
 
 # License
