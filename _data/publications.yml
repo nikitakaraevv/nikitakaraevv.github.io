@@ -1,0 +1,15 @@
+- id: dynamic-stereo
+  title: "DynamicStereo: Consistent Dynamic Depth from Stereo Videos"
+  venue: Under review
+  description: "We introduce Dynamic Replica, a synthetic benchmark dataset for dynamic depth-from-stereo models, and propose DynamicStereo, a temporally consistent disparity estimation model that we train on this dataset."
+  project_page: "https://dynamic-stereo.github.io/"
+  # arxiv: 2104.08418
+  image: nikita_reading_reconstruction.mp4
+  # image_mouseover: fignerf_after.mp4
+  authors:
+    - nikitakaraev
+    - irocco
+    - bgraham
+    - nneverova
+    - avedaldi
+    - crupprecht
