@@ -5,7 +5,7 @@
   project_page: "https://dynamic-stereo.github.io/"
   # arxiv: 2104.08418
   image: nikita_reading_reconstruction.mp4
-  # image_mouseover: fignerf_after.mp4
+  image_mouseover: nikita_reading_reconstruction.mp4
   authors:
     - nikitakaraev
     - irocco
