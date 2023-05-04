@@ -3,7 +3,7 @@
   venue: CVPR 2023
   description: "We introduce Dynamic Replica, a synthetic benchmark dataset for dynamic depth-from-stereo models, and propose DynamicStereo, a temporally consistent disparity estimation model that we train on this dataset."
   project_page: "https://dynamic-stereo.github.io/"
-  # arxiv: 2104.08418
+  arxiv: 2305.02296
   image: nikita_reading_reconstruction.mp4
   # image_mouseover: nikita_reading_reconstruction.mp4
   authors:
