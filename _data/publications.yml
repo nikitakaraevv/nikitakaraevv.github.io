@@ -1,3 +1,17 @@
+- id: cotracker
+  title: "CoTracker: It is Better to Track Together"
+  description: "CoTracker bridges the gap between long-term point tracking and Optical Flow by jointly tracking multiple points (pixels) throughout an entire video."
+  project_page: "https://co-tracker.github.io/"
+  arxiv: 2307.07635
+  image: bmx-bumps.mp4
+  authors:
+    - nikitakaraev
+    - irocco
+    - bgraham
+    - nneverova
+    - avedaldi
+    - crupprecht
+
 - id: dynamic-stereo
   title: "DynamicStereo: Consistent Dynamic Depth from Stereo Videos"
   venue: CVPR 2023
@@ -13,20 +27,3 @@
     - nneverova
     - avedaldi
     - crupprecht
-
-- id: cotracker
-  title: "CoTracker: It is Better to Track Together"
-  description: "CoTracker bridges the gap between long-term point tracking and Optical Flow by jointly tracking multiple points (pixels) throughout an entire video."
-  project_page: "https://co-tracker.github.io/"
-  arxiv: 2307.07635
-  image: bmx-bumps.mp4
-  authors:
-    - nikitakaraev
-    - irocco
-    - bgraham
-    - nneverova
-    - avedaldi
-    - crupprecht
-
-
-
