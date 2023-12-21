@@ -1,3 +1,15 @@
+- id: vggsfm
+  title: "Visual Geometry Grounded Deep Structure From Motion"
+  description: "We propose a new fully differentiable Structure-from-Motion pipeline."
+  project_page: "https://vggsfm.github.io/"
+  arxiv: 2312.04563
+  image: 
+  authors:
+    - jwang
+    - nikitakaraev
+    - crupprecht
+    - dnovotny
+    
 - id: cotracker
   title: "CoTracker: It is Better to Track Together"
   description: "CoTracker bridges the gap between long-term point tracking and Optical Flow by jointly tracking multiple points (pixels) throughout an entire video."
