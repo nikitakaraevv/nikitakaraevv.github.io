@@ -1,12 +1,3 @@
-- date: Mar 2024
-  description: [VGGSfM](https://vggsfm.github.io/) is accepted at CVPR 2024 as a highlight!
-
-- date: Jan 2024
-  description: [CoTracker](https://co-tracker.github.io/) now supports tracking of 10x more points than before.
-  
-- date: Aug 2023
-  description: We released [CoTracker](https://co-tracker.github.io/), a model for tracking any pixel in a video.
-  
 - date: Mar 2023
   description: My first PhD paper, [DynamicStereo](https://dynamic-stereo.github.io/), has been accepted at CVPR 2023!
 
