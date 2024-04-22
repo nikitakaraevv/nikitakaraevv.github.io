@@ -1,6 +1,15 @@
 # - date: Mar 2023
 #   description: [_DynamicStereo_](https://dynamic-stereo.github.io/) is accepted at CVPR2023! This is my first PhD paper.
 #   
+- date: March 2024
+  description: [VGGSfM](https://vggsfm.github.io/) is accepted at CVPR 2024 as a highlight!
+  
+- date: January 2024
+  description: [CoTracker](https://co-tracker.github.io/) now supports tracking of 10x more points than before.
+  
+- date: August 2023
+  description: We released [CoTracker](https://co-tracker.github.io/), a model for tracking any pixel in a video.
+  
 - date: Mar 2023
   description: My first PhD paper, [DynamicStereo](https://dynamic-stereo.github.io/), has been accepted at CVPR 2023!
 
