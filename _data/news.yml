@@ -1,3 +1,6 @@
+- date: Jan 2024
+  description: [CoTracker](https://co-tracker.github.io/) now supports tracking of 10x more points.
+  
 - date: Aug 2023
   description: We released [CoTracker](https://co-tracker.github.io/), a model for tracking any pixel in a video.
   
