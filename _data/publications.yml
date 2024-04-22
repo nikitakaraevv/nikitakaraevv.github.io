@@ -1,5 +1,6 @@
 - id: vggsfm
   title: "Visual Geometry Grounded Deep Structure From Motion"
+  venue: CVPR 2024 (Highlight)
   description: "We propose a new fully differentiable Structure-from-Motion pipeline."
   project_page: "https://vggsfm.github.io/"
   arxiv: 2312.04563
