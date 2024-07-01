@@ -1,9 +1,14 @@
 - date: Mar 2024
   description: >-
+    [CoTracker](https://co-tracker.github.io/) is accepted at ECCV 2024!
+
+- date: Mar 2024
+  description: >-
     [VGGSfM](https://vggsfm.github.io/) is accepted at CVPR 2024 as a highlight!
 
 - date: Jan 2024
-  description: Our [CoTracker](https://co-tracker.github.io/) now supports tracking of 10x more points.
+  description: >-
+    [CoTracker](https://co-tracker.github.io/) now supports tracking of 10x more points.
 
 - date: Aug 2023
   description: We released [CoTracker](https://co-tracker.github.io/), a model for tracking any pixel in a video.
