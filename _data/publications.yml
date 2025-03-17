@@ -1,3 +1,33 @@
+- id: vggt
+  title: "VGGT: Visual Geometry Grounded Transformer"
+  venue: CVPR 2025
+  description: "VGGT is a feed-forward neural net that directly predicts all key 3D attributes of a scene: cameras, point maps, depth maps, and 3D point tracks, from one, a few, or hundreds of its views, within seconds."
+  project_page: "https://vgg-t.github.io/"
+  arxiv: 2503.11651
+  image: bmx-bumps.mp4
+  authors:
+    - jwang
+    - mchen
+    - nikitakaraev
+    - avedaldi
+    - crupprecht
+    - dnovotny
+
+- id: cotrackerthree
+  title: "CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos"
+  # venue: arxiv
+  description: "In CoTracker3, we propose a simple and effective method for scaling synthetic-trained point trackers on real data."
+  project_page: "https://cotracker3.github.io/"
+  arxiv: 2410.11831
+  image: bmx-bumps.mp4
+  authors:
+    - nikitakaraev
+    - ymakarov
+    - jwang
+    - nneverova
+    - avedaldi
+    - crupprecht
+    
 - id: vggsfm
   title: "Visual Geometry Grounded Deep Structure From Motion"
   venue: CVPR 2024 (Highlight)
