@@ -1,3 +1,9 @@
+- date: Mar 2025
+  description: We`re releasing [VGGT](https://vgg-t.github.io/), a feed-forward neural net that directly predicts all key 3D attributes of a scene. Try our [HF demo](https://huggingface.co/spaces/facebook/vggt)!
+
+- date: Oct 2024
+  description: We released [CoTracker3](https://cotracker3.github.io/), a new point tracking model trained on real data.
+
 - date: Jul 2024
   description: >-
     [CoTracker](https://co-tracker.github.io/) is accepted at ECCV 2024!
