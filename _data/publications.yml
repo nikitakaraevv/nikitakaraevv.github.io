@@ -1,6 +1,6 @@
 - id: vggt
   title: "VGGT: Visual Geometry Grounded Transformer"
-  venue: CVPR 2025
+  venue: CVPR 2025 (Best Paper Award)
   description: "VGGT is a feed-forward neural net that directly predicts all key 3D attributes of a scene: cameras, point maps, depth maps, and 3D point tracks, from one, a few, or hundreds of its views, within seconds."
   project_page: "https://vgg-t.github.io/"
   arxiv: 2503.11651
@@ -15,7 +15,7 @@
 
 - id: cotrackerthree
   title: "CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos"
-  # venue: arxiv
+  venue: ICCV 2025
   description: "In CoTracker3, we propose a simple and effective method for scaling synthetic-trained point trackers on real data."
   project_page: "https://cotracker3.github.io/"
   arxiv: 2410.11831
