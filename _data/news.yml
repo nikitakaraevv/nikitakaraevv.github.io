@@ -1,6 +1,15 @@
+- date: Jul 2025
+  description: [CoTracker3](https://cotracker3.github.io/) and [SpatialTrackerV2](https://spatialtracker.github.io/) are accepted at ICCV 2025!
+
+- date: Jun 2025
+  description: 🎉[VGGT](https://vgg-t.github.io/) won the best paper award at CVPR 2025!🎉
+
 - date: Mar 2025
   description: We released [VGGT](https://vgg-t.github.io/), a feed-forward neural net that directly predicts all key 3D attributes of a scene. Try our [HF demo](https://huggingface.co/spaces/facebook/vggt)!
 
+- date: Nov 2025
+  description: [Yuri](https://www.linkedin.com/in/lvoursl) and I left Meta AI and started [Pixelwise AI](https://pixelwise.ai) to unlock training robots on internet-scale data via imitation learning!
+  
 - date: Oct 2024
   description: We`re releasing [CoTracker3](https://cotracker3.github.io/), a new point tracking model trained on real data.
 
