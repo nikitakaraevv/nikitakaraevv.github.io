@@ -15,7 +15,7 @@
 
 - id: cotrackerthree
   title: "CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos"
-  venue: ICCV 2025
+  venue: ICCV 2025 (Highlight)
   description: "In CoTracker3, we propose a simple and effective method for scaling synthetic-trained point trackers on real data."
   project_page: "https://cotracker3.github.io/"
   arxiv: 2410.11831
