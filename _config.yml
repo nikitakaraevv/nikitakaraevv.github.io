@@ -23,7 +23,7 @@ name: Nikita Karaev
 position: Applied Scientist
 email: nikita@robots.ox.ac.uk
 description: >-
- I’m building general purpose robots 🤖 at Amazon FAR, which we joined through the acquisition of Pixelwise AI, where I was a founder. At Amazon FAR, we’re continuing our startup vision of building technology to train robots using internet-scale human data. Previously, I was fortunate to do a PhD at [Meta AI](https://ai.facebook.com/) and the [Visual Geometry Group, University of Oxford](https://www.robots.ox.ac.uk/~vgg/), supervised by [Christian Rupprecht](https://chrirupp.github.io), [Natalia Neverova](https://nneverova.github.io), and
+ I’m building general-purpose robots at Amazon FAR, following the acquisition of Pixelwise AI, where I was a founder. We’re continuing our vision of training robots using internet-scale human data. Previously, I was fortunate to do a PhD at [Meta AI](https://ai.facebook.com/) and the [Visual Geometry Group, University of Oxford](https://www.robots.ox.ac.uk/~vgg/), supervised by [Christian Rupprecht](https://chrirupp.github.io), [Natalia Neverova](https://nneverova.github.io), and
   [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/). Before my PhD, I completed an engineering program at [École Polytechnique](https://www.polytechnique.edu/en) in beautiful Paris. I also enjoy running and all mountain-related activities 🏔️
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nikitakaraevv.github.io" # the base hostname & protocol for your site, e.g. http://example.com
