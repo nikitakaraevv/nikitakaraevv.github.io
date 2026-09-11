@@ -1,9 +1,51 @@
+# Publications, newest first.
+# Fields: id, title, venue, [award], description, project_page, [arxiv], [pdf], [github], [demo], image (mp4 in images/), authors (keys from authors.yml)
+- id: agentic-star
+  title: "Agentic STAR: Shape Tracking and Reconstruction from Monocular Videos"
+  venue: "2026"
+  description: "Shape reconstruction and tracking from video via agentic analysis-by-synthesis: a VLM agent iteratively refines a structured 3D object model, including its geometry and kinematic structure, through a render-and-compare loop with numerical pose optimisation."
+  project_page: "https://agenticstar.github.io/"
+  pdf: "https://agenticstar.github.io/assets/AgenticSTAR.pdf"
+  github: makezur/agenticstar
+  image: agenticstar_teaser.mp4
+  authors:
+    - kmazur
+    - nikitakaraev
+    - mchang
+    - jmalik
+    - mshafiullah
+
+- id: vggt-omega
+  title: "VGGT-Ω"
+  venue: CVPR 2026
+  award: Best Paper Finalist
+  description: "Feed-forward 3D reconstruction scales predictably with model and data size. VGGT-Ω substantially improves accuracy, efficiency and capabilities for both static and dynamic scenes, trained at unprecedented scale with a dynamic-scene annotation pipeline and self-supervised learning."
+  project_page: "https://vggt-omega.github.io/"
+  arxiv: 2605.15195
+  github: facebookresearch/vggt-omega
+  demo: "https://huggingface.co/spaces/facebook/vggt-omega"
+  image: vggt_omega_teaser.mp4
+  authors:
+    - jwang
+    - mchen
+    - szhang
+    - nikitakaraev
+    - jschonberger
+    - plabatut
+    - pbojanowski
+    - dnovotny
+    - avedaldi
+    - crupprecht
+
 - id: vggt
   title: "VGGT: Visual Geometry Grounded Transformer"
-  venue: CVPR 2025 (Best Paper Award)
+  venue: CVPR 2025
+  award: Best Paper Award
   description: "VGGT is a feed-forward neural net that directly predicts all key 3D attributes of a scene: cameras, point maps, depth maps, and 3D point tracks, from one, a few, or hundreds of its views, within seconds."
   project_page: "https://vgg-t.github.io/"
   arxiv: 2503.11651
+  github: facebookresearch/vggt
+  demo: "https://huggingface.co/spaces/facebook/vggt"
   image: vggt.mp4
   authors:
     - jwang
@@ -15,10 +57,13 @@
 
 - id: cotrackerthree
   title: "CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos"
-  venue: ICCV 2025 (Highlight)
+  venue: ICCV 2025
+  award: Highlight
   description: "In CoTracker3, we propose a simple and effective method for scaling synthetic-trained point trackers on real data."
   project_page: "https://cotracker3.github.io/"
   arxiv: 2410.11831
+  github: facebookresearch/co-tracker
+  demo: "https://huggingface.co/spaces/facebook/cotracker"
   image: longboard_ours_offline_finetuned_100.mp4
   authors:
     - nikitakaraev
@@ -27,26 +72,30 @@
     - nneverova
     - avedaldi
     - crupprecht
-    
+
 - id: vggsfm
-  title: "Visual Geometry Grounded Deep Structure From Motion"
-  venue: CVPR 2024 (Highlight)
+  title: "VGGSfM: Visual Geometry Grounded Deep Structure From Motion"
+  venue: CVPR 2024
+  award: Highlight
   description: "We propose a new fully differentiable Structure-from-Motion pipeline."
   project_page: "https://vggsfm.github.io/"
   arxiv: 2312.04563
+  github: facebookresearch/vggsfm
+  demo: "https://huggingface.co/spaces/facebook/vggsfm"
   image: vggsfm_teaser.mp4
   authors:
     - jwang
     - nikitakaraev
     - crupprecht
     - dnovotny
-    
+
 - id: cotracker
   title: "CoTracker: It is Better to Track Together"
   venue: ECCV 2024
   description: "CoTracker bridges the gap between long-term point tracking and Optical Flow by jointly tracking multiple points (pixels) throughout an entire video."
   project_page: "https://co-tracker.github.io/"
   arxiv: 2307.07635
+  github: facebookresearch/co-tracker
   image: bmx-bumps.mp4
   authors:
     - nikitakaraev
@@ -62,8 +111,8 @@
   description: "We introduce Dynamic Replica, a synthetic benchmark dataset for dynamic depth-from-stereo models, and propose DynamicStereo, a temporally consistent disparity estimation model that we train on this dataset."
   project_page: "https://dynamic-stereo.github.io/"
   arxiv: 2305.02296
+  github: facebookresearch/dynamic_stereo
   image: nikita_reading_reconstruction.mp4
-  # image_mouseover: nikita_reading_reconstruction.mp4
   authors:
     - nikitakaraev
     - irocco

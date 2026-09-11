@@ -1,3 +1,5 @@
+# Authors referenced from publications.yml by key.
+# Fields: first_name, [middle_name], last_name, website, [is_me]
 nikitakaraev:
   first_name: Nikita
   last_name: Karaev
@@ -39,4 +41,35 @@ ymakarov:
   first_name: Yuri
   last_name: Makarov
   website: https://www.linkedin.com/in/lvoursl/
-
+szhang:
+  first_name: Shangzhan
+  last_name: Zhang
+  website: https://zhanghe3z.github.io/
+jschonberger:
+  first_name: Johannes
+  last_name: Schönberger
+  website: https://demuc.de/
+plabatut:
+  first_name: Patrick
+  last_name: Labatut
+  website: https://scholar.google.com/citations?user=IJidh-UAAAAJ
+pbojanowski:
+  first_name: Piotr
+  last_name: Bojanowski
+  website: https://scholar.google.com/citations?user=lJ_oh2EAAAAJ
+kmazur:
+  first_name: Kirill
+  last_name: Mazur
+  website: https://makezur.github.io/
+mchang:
+  first_name: Matthew
+  last_name: Chang
+  website: https://matthewchang.github.io/
+jmalik:
+  first_name: Jitendra
+  last_name: Malik
+  website: https://people.eecs.berkeley.edu/~malik/
+mshafiullah:
+  first_name: Nur Muhammad "Mahi"
+  last_name: Shafiullah
+  website: https://mahis.life/

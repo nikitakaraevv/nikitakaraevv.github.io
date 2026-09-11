@@ -1,61 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
+# Site settings. Edit these, plus the files in _data/, to update the site.
 title: Nikita Karaev
 name: Nikita Karaev
-position: Applied Scientist
+position: Member of Technical Staff
+affiliation: Amazon FAR
 email: nikita@robots.ox.ac.uk
 description: >-
- I’m building general-purpose robots at Amazon FAR, following the acquisition of Pixelwise AI, where I was a founder. We’re continuing our vision of training robots using internet-scale human data. Previously, I was fortunate to do a PhD at [Meta AI](https://ai.facebook.com/) and the [Visual Geometry Group, University of Oxford](https://www.robots.ox.ac.uk/~vgg/), supervised by [Christian Rupprecht](https://chrirupp.github.io), [Natalia Neverova](https://nneverova.github.io), and
-  [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/). Before my PhD, I completed an engineering program at [École Polytechnique](https://www.polytechnique.edu/en) in beautiful Paris. I also enjoy running and all mountain-related activities 🏔️
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nikitakaraevv.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+  I'm building general-purpose robots at Amazon FAR, following the acquisition of Pixelwise AI, where I was a founder. We're continuing our vision of training robots using internet-scale human data.
+  Previously, I was fortunate to do a PhD at [Meta AI](https://ai.facebook.com/) and the [Visual Geometry Group, University of Oxford](https://www.robots.ox.ac.uk/~vgg/), supervised by [Christian Rupprecht](https://chrirupp.github.io), [Natalia Neverova](https://nneverova.github.io), and [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/).
+  Before my PhD, I completed an engineering program at [École Polytechnique](https://www.polytechnique.edu/en) in beautiful Paris. I also enjoy running and all mountain-related activities 🏔️
+# Plain-text summary for search engines and link previews.
+tagline: Member of Technical Staff at Amazon FAR working on 3D computer vision and robot learning. Co-author of VGGT, CoTracker, VGGSfM and DynamicStereo.
+
+baseurl: ""
+url: "https://nikitakaraevv.github.io"
 twitter_username: n_karaev
 github_username: nikitakaraevv
 google_scholar: DW-X-Y8AAAAJ
 google_analytics: G-QN7B6S518N
 
+# Number of news items shown before the "Show more" button.
+news_visible: 6
+
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
 sass:
-  style: compact
+  style: compressed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - .bundle/
