@@ -1,5 +1,5 @@
 # News, newest first. `date` is free text; `description` is Markdown.
-- date: Oct 2026
+- date: Sep 2026
   description: >-
     We released [Agentic STAR](https://agenticstar.github.io/), which reconstructs and tracks arbitrary objects from monocular videos via agentic analysis-by-synthesis.
 

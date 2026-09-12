@@ -55,6 +55,27 @@
     - crupprecht
     - dnovotny
 
+- id: spatialtrackerv2
+  title: "SpatialTrackerV2: 3D Point Tracking Made Easy"
+  venue: ICCV 2025
+  description: "A unified, end-to-end framework for 3D point tracking that jointly estimates camera motion, scene geometry, and pixel-wise trajectories in monocular videos."
+  project_page: "https://spatialtracker.github.io/"
+  arxiv: 2507.12462
+  github: henry123-boy/SpaTrackerV2
+  demo: "https://huggingface.co/spaces/Yuxihenry/SpatialTrackerV2"
+  image: spatialtrackerv2_teaser.mp4
+  authors:
+    - yxiao
+    - jwang
+    - nxue
+    - nikitakaraev
+    - ymakarov
+    - bkang
+    - xzhu
+    - hbao
+    - yshen
+    - xzhou
+
 - id: cotrackerthree
   title: "CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos"
   venue: ICCV 2025
