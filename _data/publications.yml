@@ -1,5 +1,10 @@
 # Publications, newest first.
-# Fields: id, title, venue, [award], description, project_page, [arxiv], [pdf], [github], [demo], image (mp4 in images/), authors (keys from authors.yml)
+# Fields: id, title, venue, [award], description, project_page, [arxiv], [pdf], [github], [demo],
+#         image (mp4 in images/), authors (keys from authors.yml)
+#         Optional thumbnail tuning for the 16:10 card:
+#           image_position: CSS object-position for the crop (default "50% 50%")
+#           image_fit: "contain" to show the whole clip letterboxed instead of cropping
+#           image_bg: colour behind a letterboxed clip, e.g. "#fdfdfd" to match a white video background
 - id: agentic-star
   title: "Agentic STAR: Shape Tracking and Reconstruction from Monocular Videos"
   venue: "2026"
@@ -47,6 +52,8 @@
   github: facebookresearch/vggt
   demo: "https://huggingface.co/spaces/facebook/vggt"
   image: vggt.mp4
+  image_fit: contain
+  image_bg: "#fdfdfd"
   authors:
     - jwang
     - mchen
@@ -104,6 +111,8 @@
   github: facebookresearch/vggsfm
   demo: "https://huggingface.co/spaces/facebook/vggsfm"
   image: vggsfm_teaser.mp4
+  image_fit: contain
+  image_bg: "#fcfcfc"
   authors:
     - jwang
     - nikitakaraev

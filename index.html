@@ -167,7 +167,9 @@ layout: null
         <a class="pub-media" href="{{ pub.project_page }}" tabindex="-1" aria-hidden="true">
           <video muted loop playsinline preload="none"
                  poster="{{ '/images/posters/' | append: base | append: '.jpg' | relative_url }}"
-                 data-src="{{ '/images/' | append: pub.image | relative_url }}"></video>
+                 data-src="{{ '/images/' | append: pub.image | relative_url }}"
+                 {%- capture vstyle %}{% if pub.image_position %}object-position:{{ pub.image_position }};{% endif %}{% if pub.image_fit %}object-fit:{{ pub.image_fit }};{% endif %}{% if pub.image_bg %}background:{{ pub.image_bg }};{% endif %}{% endcapture %}
+                 {%- if vstyle != "" %} style="{{ vstyle }}"{% endif %}></video>
         </a>
         <div class="pub-body">
           <h3 class="pub-title"><a href="{{ pub.project_page }}">{{ pub.title }}</a></h3>
